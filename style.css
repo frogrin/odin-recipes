@@ -3,9 +3,16 @@
 }
 
 body {
-    background-color: rgb(230, 227, 215);
+    background-color: rgb(216, 216, 216);
+    margin: 0;
 }
-
+.header {
+    background-color: #3c4e8a;
+    margin: 0;
+    padding: 24px;
+    text-align: center;
+    color: rgb(216, 216, 216);
+}
 img {
     height: auto;
     width: 500px;
@@ -18,4 +25,9 @@ a {
 
 a {
     color: rgb(87, 3, 143);
+}
+
+.nav li {
+    margin: 16px;
+    font-weight: bold;
 }
